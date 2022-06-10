@@ -1,0 +1,204 @@
+.header-prod {
+  background-color: rgb(243, 178, 0);
+}
+
+.animasion {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(9, 9, 9);
+  font-size: 0;
+  line-height: 1.5;
+}
+
+.efecto-title {
+  font-size: 3rem;
+  display: inline-block;
+  animation: anime 4.5s linear infinite;
+}
+
+.box-prod {
+  background-color: #330000;
+  text-align: center;
+  height: auto;
+}
+
+.img__prod {
+  width: 20%;
+}
+
+.prod-subtitle {
+  font-size: 2.5rem;
+  color: rgb(243, 187, 187);
+  transition: all 0.5s linear;
+}
+
+.box-prod p {
+  margin: 0.5rem;
+  font-size: 1rem;
+  color: rgb(243, 187, 187);
+  transition: all 1s linear;
+}
+
+.box__uno {
+  grid-area: prote;
+}
+
+.box__dos {
+  grid-area: crea;
+}
+
+.box__tres {
+  grid-area: amino;
+}
+
+.box__cuatro {
+  grid-area: multi;
+}
+
+.box__cinco {
+  grid-area: ultra;
+}
+
+.box__seis {
+  grid-area: barras;
+}
+
+.container__productos {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.container__productos {
+  grid-template-areas: "prote" "crea" "amino" "multi" "ultra" "barras";
+}
+
+@media screen and (min-width: 768px) {
+  .container__productos {
+    grid-template-areas: "prote crea" "amino multi" "ultra barras";
+  }
+  .img__prod {
+    width: 20%;
+  }
+  .efecto-title {
+    font-size: 3.5rem;
+  }
+  .prod-subtitle {
+    font-size: 2.5rem;
+    color: rgb(243, 178, 0);
+  }
+  .box-prod p {
+    font-size: 1.5rem;
+    background-color: rgb(243, 178, 0);
+    color: rgb(9, 9, 9);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container__productos {
+    grid-template-areas: "prote crea amino" "multi ultra barras";
+  }
+  .box-prod p, .prod-subtitle {
+    margin: 1rem;
+  }
+  .img__prod {
+    width: 15%;
+  }
+  .efecto-title {
+    font-size: 5rem;
+  }
+  .prod-subtitle {
+    font-size: 3rem;
+    color: #ff9999;
+  }
+  .prod-subtitle:hover {
+    font-size: 3.5rem;
+    color: rgb(243, 187, 187);
+  }
+  .box-prod p {
+    font-size: 1.7rem;
+    background-color: #ff9999;
+    color: rgb(9, 9, 9);
+  }
+  .box-prod p:hover {
+    font-size: 1.8rem;
+    color: rgb(243, 187, 187);
+  }
+  .box__seis:hover .efecto-uno {
+    transform: translateX(10rem);
+  }
+  .box__seis:hover .efecto-dos {
+    transform: translateX(-10rem);
+  }
+}
+footer {
+  background-color: rgb(73, 64, 64);
+}
+footer .pie__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .sub__pie {
+  color: rgb(51, 9, 9);
+  font-size: 2.5em;
+  padding: 0.5rem 0;
+}
+footer .public__pie {
+  padding: 0.5rem 0;
+}
+footer .desc__pie {
+  padding: 0.5rem 0;
+}
+footer .three__container {
+  display: flex;
+  justify-content: center;
+}
+footer .info__pie {
+  text-align: center;
+  font-size: 1rem;
+}
+
+@keyframes anime {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    text-shadow: 0 25px 50px rgb(255, 0, 0);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
+}
+.animasion span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.animasion span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.animasion span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.animasion span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+.animasion span:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+.animasion span:nth-child(7) {
+  animation-delay: 3s;
+}
+
+.animasion span:nth-child(8) {
+  animation-delay: 3.5s;
+}
+
+.animasion span:nth-child(9) {
+  animation-delay: 4s;
+}
+
+/*# sourceMappingURL=style.css.map */
