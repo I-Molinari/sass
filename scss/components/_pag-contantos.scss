@@ -1,0 +1,52 @@
+/* Contactos inicio */
+
+.header__contact {
+    background-color: rgb(73, 64, 64);
+    font-size: 6rem;
+    color: rgb(116, 5, 5);
+    text-align: center;
+}
+.main__contact {
+    background-image: url("multimedia/imagenes/fondoContact.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(73, 64, 64);
+}
+.box-uno {grid-area: titulo1;}
+.box-dos {grid-area: video1;}
+.box-tres {grid-area: texto1;}
+.box-cuatro {grid-area: titulo2;}
+.box-cinco {grid-area: video2;}
+.box-seis {grid-area: texto2;}
+
+.contact__container {
+    display: grid;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+.contact__container {
+    grid-template-areas: 
+    'titulo1 titulo1 titulo1'
+    'video1 texto1 texto1'
+    'titulo2 titulo2 titulo2'
+    'video2 texto2 texto2'
+}
+.subtitulo__lugar {
+    font-size: 3rem;
+    color: rgb(199, 82, 4);
+    text-align: center;
+}
+.descp__lugar {
+    font-size: 1.5rem;
+    color: rgb(199, 82, 4);
+}
+.subtitulo__compe {
+    font-size: 3rem;
+    color: rgb(199, 82, 4);
+    text-align: center;
+}
+.descp__compe {
+    font-size: 1.5rem;
+    color: rgb(199, 82, 4);
+}
+/* fin contatos */

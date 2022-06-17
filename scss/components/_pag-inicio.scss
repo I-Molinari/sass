@@ -1,0 +1,94 @@
+@import '../base/colors';
+@import '../base/variables';
+
+/* Pag-Inicio - inicio header */
+.img__logo {
+    width: 8rem;
+    border: solid 3px darken($rojo, 20%);
+}
+.menu {
+    background-color: darken($rojo, 15%);
+}
+.inicio {
+    background-color: $rosa;
+}
+.menu__btn {
+    background-color: rgb(243, 233, 233);
+    color: rgb(116, 5, 5);
+    border: solid 1px darken($rojo, 20%);
+    font-size: $medida-tres;
+    padding: 0 $medida-uno;
+}
+/* fin header */
+
+/* inicio main */
+
+.main__inicio {
+    background-color: lighten($black, 30%);
+}
+
+.element__whatsapp {
+    color: black;
+    background-color: rgb(10, 197, 10);;
+    font-size: $medida-dos;
+    position: fixed;
+    right: $medida-tres;
+    border-radius: $medida-cuatro;
+    padding: 0 $medida-uno 0 $medida-uno;
+}
+.img__treno {
+    width: 15%;
+}
+.articulo__titulo {
+    font-size: $medida-cuatro;
+    color: darken($rosa, 20%);
+    margin: $medida-tres 0 $medida-tres 0;
+}
+.articulo__paragraph {
+    font-size: $medida-dos;
+    color: darken($rosa, 20%);
+    margin: $medida-tres 0 $medida-tres 0;
+}
+.xs-none {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .element__whatsapp {
+        font-size: $medida-tres;
+    }
+    .xs-none {
+        display: flex;
+    }
+    .articulo__titulo {
+        background-color: $rosa;
+        color: $black;
+        font-size: $medida-cuatro;
+    }
+    .articulo__paragraph {
+        background-color: $rosa;
+        color: $black;
+        font-size: $medida-dos;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .img__treno {
+        width: 10%;
+    }
+    .element__whatsapp {
+        font-size: $medida-cuatro;
+    }
+    .xs-none {
+        display: flex;
+    }
+    .articulo__titulo {
+        background-color: $bordo;
+        color: $blanco;
+        font-size: $medida-seis;
+    }
+    .articulo__paragraph {
+        background-color: $bordo;
+        color: $blanco;
+        font-size: $medida-cuatro;
+    }
+}
+/*  Pag-Inicio - fin main */

@@ -1,0 +1,45 @@
+/* pagina de ubicacion */
+.header__ubicacion {
+    background-color: rgb(73, 64, 64);
+    color: rgb(116, 5, 5);
+    text-align: center;
+}
+.titulo__ubicacion {
+    font-size: 5rem;
+}
+.main__ubicacion {
+    background-color: rgb(53, 39, 39)
+}
+.container__acceso {
+    display: flex;
+    align-items: center;
+}
+.subtitulo__trans {
+    font-size: 3rem;
+    color: rgb(199, 43, 4);
+    text-align: center;
+    padding: 0.5rem;
+}
+.descp__trans {
+    font-size: 1.5rem;
+    color: rgb(219, 167, 132);
+    padding: 0.5rem;
+}
+.descp__tren {
+    font-size: 1.5rem;
+    color: rgb(219, 167, 132);
+    padding: 0.5rem;
+}
+.container__gps {
+    display: flex;
+}
+.subtitulo__gps {
+    font-size: 3rem;
+    color: rgb(199, 43, 4);
+    text-align: center;
+}
+.descp__gps {
+    font-size: 1.5rem;
+    color: rgb(219, 167, 132);
+}
+/* Fin pagina de ubicacion */

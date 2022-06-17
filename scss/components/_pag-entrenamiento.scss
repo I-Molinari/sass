@@ -1,0 +1,63 @@
+/* pagina de entrenamiento */
+.main__entrenamiento {
+    background-image: url("multimedia/imagenes/fondoentrenamiento.jpeg");
+    background-size: cover;
+}
+.titulo__entrenamiento {
+    font-size: 5rem;
+    color: rgb(116, 5, 5);
+    text-align: center;
+}
+.item-uno { grid-area: titulo1; }
+.item-dos { grid-area: frame1; }
+.item-tres { grid-area: text1; }
+.item-cuatro { grid-area: titulo2; }
+.item-cinco { grid-area: frame2; }
+.item-seis { grid-area: text2; }
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+.grid-container {
+    grid-template-areas:
+    'titulo1 titulo1 titulo1 titulo1 titulo1 titulo1'
+    'frame1 frame1 text1 text1 text1 text1'
+    'titulo2 titulo2 titulo2 titulo2 titulo2 titulo2'
+    'frame2 frame2 text2 text2 text2 text2';
+}
+@media only screen and (max-width: 800px) {
+    .grid-container {
+        justify-items: center;
+        grid-template-areas:
+        'titulo1'
+        'frame1'
+        'text1'
+        'titulo2'
+        'frame2'
+        'text2';
+    }
+    .titulo__entrenamiento {
+        font-size: 4rem;
+    }
+}
+.subtitulo__sentadillas {
+    font-size: 3rem;
+    color: rgb(255, 251, 0);
+    text-align: center;
+}
+.descp__sentadillas {
+    font-size: 1.5rem;
+    color: rgb(248, 203, 0);
+}
+.subtitulo__press {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(255, 251, 0);
+}
+.descp__press {
+    font-size: 1.5rem;
+    color: rgb(248, 203, 0);
+}
+/* Fin pagina de entrenamiento*/

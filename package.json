@@ -1,23 +1,19 @@
 {
-  "name": "paginaproyecto",
+  "name": "nueva-carpeta",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/I-Molinari/proyectofinal.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/I-Molinari/proyectofinal/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-Molinari/sass.git"
   },
-  "homepage": "https://github.com/I-Molinari/proyectofinal#readme",
-  "devDependencies": {
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.16"
-  }
+  "bugs": {
+    "url": "https://github.com/I-Molinari/sass/issues"
+  },
+  "homepage": "https://github.com/I-Molinari/sass#readme",
+  "description": ""
 }
